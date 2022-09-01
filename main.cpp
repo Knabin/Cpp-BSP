@@ -1,12 +1,13 @@
 #include <iostream>
-#include "GenerateMap.h"
 
-using namespace std;
+#include "define.h"
+#include "include.h"
+
+#include "GenerateMap.h"
 
 int main()
 {
-	cout << "Hello World!";
-	
+	srand(time(NULL));
 	auto* map = new GenerateMap();
 	map->Start();
 
